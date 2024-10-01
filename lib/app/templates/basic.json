@@ -1,0 +1,146 @@
+{
+  "theme": {
+    "colors": {
+      "light": {
+        "primaryAccent": "#0166FF",
+        "primaryText": "#0E0E0E",
+        "secondaryText": "#494949",
+        "tertararyText": "#9A9A9A",
+        "sharkText": "#333436",
+        "primaryBackground": "#F5F7FF",
+        "secondaryBackground": "#FFFFFF",
+        "tertararyBackground": "#FAFBFF",
+        "backgroundSheet": "#B3081532",
+        "onPrimaryAccent": "#FFFFFF",
+        "onTertararyBackground": "#5A5E66",
+        "onTerararyFill": "#E1EAF8",
+        "onSecondaryBackground": "#F5F7FF",
+        "strokeElements": "#CCCCCC",
+        "sheetLine": "#B8BCCA",
+        "attentionRed": "#FD4E4E",
+        "success": "#35D487",
+        "orangePeel": "#FFA143",
+        "purple": "#7D40FF",
+        "raspberry": "#EA3665",
+        "darkBlue": "#1D46EB",
+        "lightBlue": "#1B9CF0",
+        "quaternaryText": "#727689"
+      },
+      "dark": {
+        "primaryAccent": "#0166FF",
+        "primaryText": "#0E0E0E",
+        "secondaryText": "#494949",
+        "tertararyText": "#9A9A9A",
+        "sharkText": "#333436",
+        "primaryBackground": "#F5F7FF",
+        "secondaryBackground": "#FFFFFF",
+        "tertararyBackground": "#FAFBFF",
+        "backgroundSheet": "#B3081532",
+        "onPrimaryAccent": "#FFFFFF",
+        "onTertararyBackground": "#5A5E66",
+        "onTerararyFill": "#E1EAF8",
+        "onSecondaryBackground": "#F5F7FF",
+        "strokeElements": "#CCCCCC",
+        "sheetLine": "#B8BCCA",
+        "attentionRed": "#FD4E4E",
+        "success": "#35D487",
+        "orangePeel": "#FFA143",
+        "purple": "#7D40FF",
+        "raspberry": "#EA3665",
+        "darkBlue": "#1D46EB",
+        "lightBlue": "#1B9CF0",
+        "quaternaryText": "#727689"
+      }
+    },
+    "textThemes": {
+      "headline1": {
+        "fontSize": 28,
+        "fontWeight": 700
+      },
+      "headline2": {
+        "fontSize": 24,
+        "fontWeight": 700
+      },
+      "inputFieldText": {
+        "fontSize": 25,
+        "fontWeight": 700
+      },
+      "title": {
+        "fontSize": 17,
+        "fontWeight": 600
+      },
+      "subtitle": {
+        "fontSize": 15,
+        "fontWeight": 600
+      },
+      "subtitle2": {
+        "fontSize": 15,
+        "fontWeight": 500
+      },
+      "subtitle3": {
+        "fontSize": 14,
+        "fontWeight": 500
+      },
+      "body": {
+        "fontSize": 13,
+        "height": 1.38,
+        "fontWeight": 600
+      },
+      "body2": {
+        "fontSize": 13,
+        "fontWeight": 400
+      },
+      "caption": {
+        "fontSize": 12,
+        "fontWeight": 500
+      },
+      "caption2": {
+        "fontSize": 12,
+        "fontWeight": 400
+      },
+      "caption3": {
+        "fontSize": 11,
+        "height": 1.63,
+        "fontWeight": 400
+      }
+    },
+    "appBar": {
+      "toolbarHeight": 50
+    },
+    "menu": {
+      "elevation": 16,
+      "paddingLeft": 0,
+      "paddingTop": 10,
+      "paddingRight": 0,
+      "paddingBottom": 10,
+      "borderRadius": 16
+    },
+    "menuButton": {
+      "minHeight": 46,
+      "paddingLeft": 16,
+      "paddingTop": 10,
+      "paddingRight": 20,
+      "paddingBottom": 10
+    },
+    "iconButton": {
+      "width": 24,
+      "height": 24
+    },
+    "icon": {
+      "width": 24,
+      "height": 24
+    }
+  },
+  "config": {
+    "pages": {
+      "dapps": {
+        "components": {
+          "featured": {
+            "hidden": false,
+            "variant": 1
+          }
+        }
+      }
+    }
+  }
+}

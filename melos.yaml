@@ -1,0 +1,24 @@
+name: ice
+
+packages:
+  - ./
+  - packages/**
+
+command:
+  bootstrap:
+    # It seems so that running "pub get" in parallel has some issues (like
+    # https://github.com/dart-lang/pub/issues/3404). Disabling this feature
+    # makes the CI much more stable.
+    runPubGetInParallel: false
+
+scripts:
+  pub_get:
+    exec: dart pub get
+  analyze:
+    exec: flutter analyze && dart run custom_lint
+  test:
+    exec: flutter test
+  build_runner:
+    exec: flutter pub run build_runner build --delete-conflicting-outputs
+  build_runner_watch:
+    exec: flutter pub run build_runner watch --delete-conflicting-outputs
